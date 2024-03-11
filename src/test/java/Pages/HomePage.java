@@ -24,7 +24,7 @@ public class HomePage {
 
     public void verifyLoginSuccess() {
         Product_label_xpath.isDisplayed();
-        Assert.assertEquals(Product_label_xpath.getText(), "Product");
+        Assert.assertEquals(Product_label_xpath.getText(), "Products");
     }
 
     public void clickBackPack_AddToCartButton() {
